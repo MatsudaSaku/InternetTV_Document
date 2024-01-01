@@ -1,4 +1,4 @@
-**# InternetTV_Document
+# InternetTV_Document
 今回はインターネットTVで使用するデータベースを構築しようと思います。  
 
 条件は以下の通りです。

@@ -43,8 +43,7 @@ SELECT
     MIN(channel_programs.time_slot) AS 放送開始時刻,
     ADDTIME(MIN(channel_programs.time_slot), MAX(episodes.duration)) AS 放送終了時刻,
     seasons.season_number AS シーズン数,
-COUNT
-    (episodes.episode_id) AS エピソード数,
+COUNT(episodes.episode_id) AS エピソード数,
     MAX(episodes.title) AS エピソードタイトル,
     MAX(episodes.description) AS エピソード詳細
 FROM channel_programs
@@ -67,8 +66,7 @@ SELECT
       ADDTIME(MIN(channel_programs.time_slot), 
       MAX(episodes.duration)) AS 放送終了時刻, 
       seasons.season_number AS シ ーズ ン数, 
-COUNT
-      (episodes.episode_id) AS エピソード数, 
+COUNT(episodes.episode_id) AS エピソード数, 
       MAX(episodes.title) AS エピソードタイトル,
       MAX(episodes.description) AS エピソード詳細 FROM channel_programs 
 JOIN channels ON channel_programs.channel_id = channels.channel_id 

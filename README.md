@@ -41,5 +41,33 @@
 まずはMySQLのユーザーを選択してから、データベース'InternetTV'を作成します。  
 クエリは以下の通りです。  
 ```mysql
- CREATE DATABASE InternetTV;
+ CREATE DATABASE internettv;
 ```
+早速確認してみましょう。
+
+```mysql
+ SHOW DATABASES;
+```
+
+上記のクエリを実行し、
+internettv　が表示されればOKです。
+
+次は以下のクエリを実行し、使用するデータベースを選びます。
+
+```mysql
+ USE internettv;
+```
+使用するデータベースを問題なく指定できれば、データベースの構築は終了です。  
+次は作成したデータベース内にテーブルを作成していきましょう。
+
+## テーブル作成
+
+
+
+
+
+
+
+
+
+

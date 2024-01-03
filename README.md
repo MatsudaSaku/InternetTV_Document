@@ -27,8 +27,14 @@
 >エピソード：1話、2話、...、26話  
 
 ## テーブル設計
+<details>
+ 
+<summary>ER図</summary>
+
+
 ![plantuml](https://github.com/MatsudaSaku/InternetTV_Document/assets/149235059/49806853-e3d2-474a-b662-f39c338cf6ce)
 
+</details>
 
 ## データベースの構築
 今回はMySQLを利用して作成していきます。  

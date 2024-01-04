@@ -41,7 +41,8 @@
 <summary>ER図</summary>
 
 
-![plantuml](https://github.com/MatsudaSaku/InternetTV_Document/assets/149235059/49806853-e3d2-474a-b662-f39c338cf6ce)
+![plantuml2](https://github.com/MatsudaSaku/InternetTV_Document/assets/149235059/43976834-0336-468e-b0ea-e2833c43b7cd)
+
 
 </details>
 

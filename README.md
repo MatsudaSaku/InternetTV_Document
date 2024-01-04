@@ -55,6 +55,9 @@
 まずはMySQLのユーザーを選択してから、データベース'InternetTV'を作成します。  
 クエリは以下の通りです。  
 ```mysql
+ mysql -u root -p;
+```
+```mysql
  CREATE DATABASE internettv;
 ```
 早速確認してみましょう。
